@@ -1,4 +1,4 @@
-**Tính nguyên tố (Atomicity).** Atomicity ensures that a series of operations within a transaction are treated as a single unit. This means that either all operations are executed successfully or none of them are. If any part of the transaction fails, the entire transaction is rolled back to its previous state.
+**Tính nguyên tố (Atomicity).**  Atomicity ensures that a series of operations within a transaction are treated as a single unit. This means that either all operations are executed successfully or none of them are. If any part of the transaction fails, the entire transaction is rolled back to its previous state.
 
 **Tính nhất quán (Consistency).** Consistency ensures that a transaction takes the database from one valid state to another valid state, maintaining the defined rules (constraints, triggers, etc.) of the database. This means that any data written to the database must be valid according to all defined rules.
 
